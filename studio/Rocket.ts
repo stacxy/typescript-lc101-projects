@@ -1,20 +1,30 @@
 import { Astronaut } from './Astronaut';
 import{ Cargo } from './Cargo';
 
-let new astronauts = new Astronaut;
-let new cargoItems = new Cargo;
-
-class Rocket {
+export class Rocket {
+    name: string;
+    totalCapacityKg: number;
+    cargoItems: Cargo[];
+    astronauts: Astronaut[];
     constructor(name: string, totalCapacityKg: number) {
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
         this.cargoItems = [];
         this.astronauts = [];
     }
+    function  sumMass(items:Payload[]): number {
+
+        
+    }
+
+    function currentMassKg(): number (params:type) {
+        
+    }
+
+
 }
 
 
 
 
 
-export class Rocket {}
