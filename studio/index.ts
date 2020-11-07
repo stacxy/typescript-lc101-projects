@@ -31,11 +31,11 @@ for (let i = 0; i < astronauts.length; i++) {
 }
 
 let cargo: Cargo[] = [
-   new Cargo({ massKg: 3107.39, material: "Satellite" }),
-   new Cargo({ massKg: 1000.39, material: "Space Probe" }),
-   new Cargo({ massKg: 753, material: "Water" }),
-   new Cargo({ massKg: 541, material: "Food" }),
-   new Cargo({ massKg: 2107.39, material: "Tesla Roadster" }),
+   new Cargo( 3107.39, "Satellite" ),
+   new Cargo( 1000.39, "Space Probe" ),
+   new Cargo( 753, "Water" ),
+   new Cargo( 541, "Food" ),
+   new Cargo( 2107.39, "Tesla Roadster" ),
 ];
 
 for (let i = 0; i < cargo.length; i++) {
